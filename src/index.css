@@ -9,6 +9,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@media screen and (max-width: 992px) {
+	body {
+		font-size: 13px;
+	}
+	h2,
+	h4 {
+		text-align: center;
+	}
+}
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

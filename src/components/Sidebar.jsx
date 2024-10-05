@@ -4,7 +4,6 @@ const Sidebar = () => {
     return (
         <div className="sidebar">
             <div className="sidebar-wrap">
-
                 <aside className="sidebar-aside border">
                     <div className="text-center">
                         <h1 id="logo"><a href="/">Mano Deepan</a></h1>

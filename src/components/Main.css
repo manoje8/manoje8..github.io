@@ -15,6 +15,7 @@
 	transition: 0.5s;
 }
 
+
 .about, 
 .skill, 
 .project, 
@@ -29,8 +30,35 @@
 	display: block;
 }
 
+@media screen and (max-width: 768px) {
+	.about, 
+	.skill, 
+	.project, 
+	.experience, 
+	.education, 
+	.contact, 
+	.footer {
+		padding-top: 2em;
+		padding-bottom: 0em;
+	}
+
+	.skill {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
 .content {
     padding: 0 4.5em;
+}
+
+@media screen and (max-width: 768px) {
+	.content {
+		position: absolute;
+		left: 0;
+		width: 100%;
+		padding: 0 1em;
+	}
 }
 
 .subtitle h1{
